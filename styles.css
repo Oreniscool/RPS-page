@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&family=Roboto&display=swap');
+
+body {
+    background-color: #121212;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.gameboard {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+}
+
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    flex-grow: 6;
+    padding-right: 15%;
+}
+.promt {
+    margin-right: 10%;
+    padding-bottom: 6%;
+    font-size: large;
+}
+
+
+button {
+  border: none;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 17px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+button:hover {
+    background-color:#232323 ;
+    box-shadow: 0 17px 50px 0 rgba(123, 123, 123, 0.19);
+}
+.rock {
+    border: 2px solid #4CAF50;
+    background-color: #4caf4f7b;
+    color: #6dff72;
+}
+.paper {
+    border: 2px solid #5ad7ed;
+    background-color: #5ad7ed78;
+    color: #88edff;
+}
+.scissor {
+    border: 2px solid #b70000;
+    background-color: #b7000077;
+    color:#ff0000
+}
+.options {
+    margin-right:-3%;
+    font-weight: 600;
+}
+
+
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 10%;
+    font-size: larger;
+    justify-content: space-between;
+}
+.scoreinfo {
+    display: flex;
+    justify-content: center;
+}
+.computer, .user {
+    display: flex;
+}
+.computer-score, .user-score {
+    padding-left: 1%;
+}
+
+.reload {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: end;
+    background-color: #bababa81;
+    border: 2px solid #bababa;
+    color:white
+}

@@ -1,2 +1,2 @@
 # RPS-page
-Rock paper sicssor game
+Rock paper sicssor game with UI
